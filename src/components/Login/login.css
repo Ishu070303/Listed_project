@@ -3,6 +3,7 @@
 
 
 
+/* Left side page */
 .left-side{
     /* border: 2px solid black; */
     width: 40%;
@@ -11,6 +12,7 @@
     background-color: black;
 }
 
+/* right side page */
 .right-side{
     /* border: 2px solid black; */
     width: 60%; 
@@ -61,7 +63,7 @@
     font-family: 'Montserrat', sans-serif;
     /* border: 2px solid black; */
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px;
     text-align: center;
     font-weight: 200;
     font-size: 12px;
@@ -79,7 +81,7 @@
     font-family: 'Montserrat', sans-serif;
     /* border: 2px solid black; */
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px;
     text-align: center;
     font-weight: 200;
     font-size: 12px;
