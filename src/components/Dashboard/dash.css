@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Telivigala&family=Cabin:wght@400;500;600&family=IBM+Plex+Sans&family=Lato:wght@300;400&family=Montserrat:wght@600&family=Noto+Serif&family=Raleway:wght@300&family=Ultra&family=Yuji+Syuku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Telivigala&family=Cabin:wght@400;500;600&family=IBM+Plex+Sans&family=Lato:wght@300;400;&family=Montserrat:wght@600@300&family=Noto+Serif&family=Raleway:wght@300&family=Ultra&family=Yuji+Syuku&display=swap');
+
+/*===========================SIDEBAR CSS START===========================================*/
 .dash{
     display: flex;
 }
@@ -85,4 +87,6 @@
     color: white;
 }
 
+
+/*===========================CONTENT CSS START===========================================*/
 
