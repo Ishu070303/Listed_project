@@ -34,7 +34,7 @@ const Login = () => {
                 <button className='submit-button'>SIGN IN</button>
             </form>
         </div>
-        <h5 className='t2'>Don't have an account? <a className='link-register'>Register</a></h5>
+        <h5 className='t2'>Don't have an account? <a className='link-register'>Register Here</a></h5>
         </div>
         {/*FORM Ending*/}
     </div>

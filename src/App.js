@@ -7,8 +7,8 @@ import Dashboard from './components/Dashboard/Dashboard';
 const App = () => {
   return (
     <>
-      {/* <Dashboard /> */}
-      <Login />
+      <Dashboard />
+      {/* <Login /> */}
     </>
   )
 }
