@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Telivigala&family=Cabin:wght@400;500;600&family=IBM+Plex+Sans&family=Lato:wght@300;400;&family=Montserrat:wght@600@300&family=Noto+Serif&family=Raleway:wght@300&family=Ultra&family=Yuji+Syuku&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Telivigala&family=Cabin:wght@400;500;600&family=IBM+Plex+Sans&family=Lato:wght@300;400;&family=Montserrat:wght@600@300@700;&family=Noto+Serif&family=Raleway:wght@300&family=Ultra&family=Yuji+Syuku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@300&family=Ultra&family=Yuji+Syuku&display=swap');
 /*===========================SIDEBAR CSS START===========================================*/
 .dash{
     display: flex;
@@ -8,13 +8,14 @@
 
 .side-bar{
     /* border:2px solid black; */
+    background-color: #F5F5F5;
     flex: .2;
     height: 100vh;
    
 }
 
 .content-side{
-    border:2px solid black;
+    background-color: #F5F5F5;
     flex: 1%;
     height: 100vh;
 }
@@ -89,4 +90,99 @@
 
 
 /*===========================CONTENT CSS START===========================================*/
+
+.content-dash{
+    /* border: 1px solid black; */
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text2{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.search-div{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 25%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.search{
+    /* border: 2px solid black; */
+    margin-top: 1rem;
+    background-color: white;
+    height: 27px;
+    padding: 10px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 190px;
+    color: #B0B0B0;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+.search input{
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.img{
+    width: 32px;
+    height: 31px;
+    border-radius: 50%;
+    margin-top: 1.2rem;
+    margin-right: 2rem;
+}
+
+.cubes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.cubes-div{
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    width: 221.05px;
+    height: 120px;
+    margin-right: 12px;
+    padding-top: 12px;
+}
+
+.h2{
+    /* border: 2px solid black; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin-left: 2rem;
+    width: 60%;
+}
+
+.h5{
+    /* border: 2px solid black; */
+   font-size: 14px;
+   font-weight: 400;
+   width: 60%;
+   font-family: 'Lato', sans-serif;
+   /* margin-top: 1rem; */
+   margin-left: 2rem;
+}
+
+.icon{
+    font-size: 25px;
+    margin-left: 10rem;
+    /* margin-top: 12px; */
+    /* border: 2px solid black; */
+}
+
 
