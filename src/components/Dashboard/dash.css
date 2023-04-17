@@ -186,3 +186,90 @@
 }
 
 
+/*=======================CHARTS STYLING=====================*/
+.pie-div{
+    width: 480px;
+    height: 256px;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background-color: white;
+}
+
+.pie-chart-short-div{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.pie-chart-short-div h4{
+    margin-left: 2rem;
+    margin-top: .8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.pie-chart-short-div h5{
+    font-size: 12px;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    color:#858585;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.pie-chart-second-short-div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    margin-top: 1.5rem;
+}
+
+.pie-chart-second-short-div img{
+   width: 145.94px;
+   height: 145.94px;
+   margin-left: 3rem;
+}
+
+.pie-lite{
+  /* border: 2px solid black; */
+  margin-right: 4rem;
+}
+
+/* .pie-lite-div{
+    display: flex;
+} */
+
+.circle{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    margin-right: 12px;
+    /* display: inline;  */
+    /* margin-left:12px; */
+}
+
+.div-circle{
+    display: flex;
+    align-items: center;
+}
+
+
+.div-circle h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size:  14px;
+}
+
+.pie-lite p{
+    margin-left: 1.4rem;
+    color: #858585;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    margin-bottom: 1.3rem;
+    margin-top: 5px;
+}
+
