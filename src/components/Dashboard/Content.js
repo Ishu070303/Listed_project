@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Chart from './assests/Pie-Chart.png';
+import GreenLine from './assests/green-line.png';
+import BlueLine from './assests/blue-line.png';
 
 const Content = () => {
   return (
@@ -51,7 +53,7 @@ const Content = () => {
     </div>
 
     {/*======================CHART CARD =====================*/}
-    <div>
+    <div className='main-div'>
     <div className='pie-div'>
       <div className='pie-chart-short-div'>
         <h4>Top Products</h4>
@@ -79,11 +81,38 @@ const Content = () => {
         <p>14%</p>
       </div>
       </div>
+    </div>
+
+ {/*====================== SCHEDULE TASKS ===========================*/}
+    <div className='pie-div-second'>
+      <div className='pie-chart-short-div'>
+        <h4>Today's schedule</h4>
+        <h5 >See All <i class="ri-arrow-right-s-line"></i></h5>
+      </div>
+      <div className='schedule-div'>
+        <div className='schedule-div-first'>
+          <img src={GreenLine} alt='green-line'/>
+          <div>
+            <h4>Meeting with suppliers from Kuta Bali</h4>
+            <p>14.00 - 15.00</p>
+            <p>at Sunset Road, Kuta, Bali</p>
+          </div>
+        </div>
+
+        <div className='schedule-div-first' >
+          <img src={BlueLine} alt='blue-line'/>
+          <div>
+            <h4>Check operation at Giga Factory 1</h4>
+            <p>18.00 - 20.00</p>
+            <p>at Central Jakarta</p>
+          </div>
+        </div>
+
+      </div>
       
     </div>
     </div>
-
-    </>
+  </>
   )
 }
 
