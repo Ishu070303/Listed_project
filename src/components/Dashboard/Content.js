@@ -17,7 +17,7 @@ const Content = () => {
           <i class="ri-search-line"></i> 
         </div>          
      
-      <i style={{marginTop: '1.5rem', color: '#000000',cursor:'pointer',  }} class="ri-notification-3-line"></i>
+      <i class="ri-notification-3-line icon1"></i>
       <img src='https://lh3.googleusercontent.com/nJpMQsubpiBJ0sNYU2vbfJnQILcsAw06QemEucL3u_3u4oMUKxG2N8OWmrMTv1YVghZEwq2QxasZzwT1jos4qdDaMPQF43liYg=w1600-rj' 
       className='img'
       alt=''

@@ -152,3 +152,39 @@
     cursor: pointer;
 }
 
+/*======================responsive=========================*/
+
+@media only screen and (max-width: 468px) {
+    /* Left side page */
+    .left-side {
+     display: none;
+    }
+    .left-side h1 {
+        font-size: 4.5rem;
+        width: 32%;
+        margin: 20rem 0 0 11rem;
+        text-align: left;
+    }
+    /* right side page */
+    .right-side {
+        width: 60%;
+        height: 100vh;
+        float: right;
+        display: flex;
+        background-color: #F5F5F5;
+    }
+    .right-div {
+        width: 50%;
+    }
+    .google-button,
+    .apple-button {
+        width: auto;
+        margin-right: 1rem;
+    }
+    .div-under .i1 {
+        width: 70%;
+    }
+    /* .submit-button{
+        width: 100%;
+    } */
+}
