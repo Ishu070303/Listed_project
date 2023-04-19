@@ -154,11 +154,27 @@
 
 /*======================responsive=========================*/
 
+
+@media only screen and (max-width: 828px){
+    .left-side{
+        display: none;
+    }
+
+    .right-side{
+        width: 100vw;
+    }
+
+    .right-div{
+        margin-top: 9rem;
+    }
+}
+
 @media only screen and (max-width: 468px) {
     /* Left side page */
     .left-side {
      display: none;
     }
+
     .left-side h1 {
         font-size: 4.5rem;
         width: 32%;
@@ -167,24 +183,35 @@
     }
     /* right side page */
     .right-side {
-        width: 60%;
+        width: 100vw;
         height: 100vh;
         float: right;
         display: flex;
         background-color: #F5F5F5;
     }
     .right-div {
-        width: 50%;
+        width: 100vw;
     }
     .google-button,
     .apple-button {
-        width: auto;
-        margin-right: 1rem;
+        margin-left: 12px;
+        margin-top: 1rem;
     }
     .div-under .i1 {
         width: 70%;
     }
-    /* .submit-button{
-        width: 100%;
-    } */
+
+    .right-div h2{
+        font-weight: 700;
+        font-size: 36px; 
+        line-height: 43.88px;
+        margin-left: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+    .t1{
+        margin-left: 12px;
+    }
+   
 }
