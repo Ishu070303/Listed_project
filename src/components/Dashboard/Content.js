@@ -3,6 +3,7 @@ import React from 'react';
 import Chart from './assests/Pie-Chart.png';
 import GreenLine from './assests/green-line.png';
 import BlueLine from './assests/blue-line.png';
+import LineChart from './LineChart';
 
 const Content = () => {
   return (
@@ -52,7 +53,13 @@ const Content = () => {
       </div>
     </div>
 
-    {/*======================CHART CARD =====================*/}
+
+    {/*=====================GRAPH SECTION============================= */}
+    <div className='graph-section'>
+      <LineChart />
+    </div>
+
+    {/*======================PIE CARD =====================*/}
     <div className='main-div'>
     <div className='pie-div'>
       <div className='pie-chart-short-div'>
