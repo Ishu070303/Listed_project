@@ -49,7 +49,7 @@ const Login = ( ) => {
         <div className='GoogleOAuthProvider'>
         <button className='google-button'>
             {!isLoggedIn && (
-              <GoogleOAuthProvider   clientId={process.env.GOOGLE_CLIENT_ID}>
+              <GoogleOAuthProvider   clientId= '72991770536-mndpj2nd8uhr6potsk82367d92arc784.apps.googleusercontent.com'>
                 <GoogleLogin
                   onSuccess={handleLoginSuccess}
                   onError={() => {
