@@ -39,6 +39,7 @@
     margin: auto; 
     width: 50%;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 .right-div h2{
@@ -57,37 +58,48 @@
 }
 
 .google-button{
-    margin-top: 2rem;
-    background-color: white;
-    color: #858585;
-    font-family: 'Montserrat', sans-serif;
+    /* margin-top: 2rem; */
+    background-color: #F5F5F5;
+
+    /* font-family: 'Montserrat', sans-serif; */
     /* border: 2px solid black; */
     border-radius: 10px;
-    padding: 9px;
-    text-align: center;
-    font-weight: 200;
-    font-size: 12px;
-    width: 46%;
+    /* padding: 5px; */
+    /* text-align: center; */
+    /* font-weight: 200;
+    font-size: 12px; */
+    /* width: 46%; */
     cursor: pointer;
     margin-right: 2rem;
     border: none;
     
 }
 
+.GoogleOAuthProvider{
+    /* border: 2px solid black; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
 .apple-button{
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     background-color: white;
     color: #858585;
     font-family: 'Montserrat', sans-serif;
-    /* border: 2px solid black; */
-    border-radius: 10px;
-    padding: 9px;
+    border: .2px solid black;
+    /* border-radius: 10px; */
+    padding: 12px;
     text-align: center;
     font-weight: 200;
     font-size: 12px;
     width: 46%;
     cursor: pointer;
     border: none;
+}
+.apple-button:hover{
+    background-color:  #858585;
+    color: white;
 }
 
 .div-under{

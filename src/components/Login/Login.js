@@ -1,8 +1,35 @@
-import React from 'react';
-
+import React, { useState } from 'react';
 import './login.css';
 
-const Login = () => {
+import { useNavigate } from 'react-router-dom';
+import { GoogleOAuthProvider } from '@react-oauth/google';
+import { GoogleLogin } from '@react-oauth/google';
+import jwt_decode from 'jwt-decode';
+import Dashboard from '../Dashboard/Dashboard';
+
+
+
+const Login = ( ) => {
+
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  // const [profilePictureUrl, setProfilePictureUrl] = useState('');
+  const [showLogin, setShowLogin] = useState(true);
+  const navigate = useNavigate();
+
+  const handleLoginSuccess = credentialResponse => {
+    const details = jwt_decode(credentialResponse.credential);
+    // console.log(details);
+    // const profilePictureUrl = details.picture;
+    // setProfilePictureUrl(profilePictureUrl);
+    setIsLoggedIn(true);
+    setShowLogin(false);
+    // props.setProfilePictureUrl(profilePictureUrl);
+    
+    <Dashboard details={details} />
+    console.log(details);
+    navigate('/dashboard')
+  };
+
   return (
     <>
     {/*Left Banner */}
@@ -19,10 +46,23 @@ const Login = () => {
         <h5 className='t1'>Sign in to your account</h5>
 
         {/*Google button */}
-        <button className='google-button'><i class="ri-google-fill" style={{marginRight: '12px'}} ></i>Sign in with Google</button>
+        <div className='GoogleOAuthProvider'>
+        <button className='google-button'>
+            {!isLoggedIn && (
+              <GoogleOAuthProvider   clientId={process.env.GOOGLE_CLIENT_ID}>
+                <GoogleLogin
+                  onSuccess={handleLoginSuccess}
+                  onError={() => {
+                    console.log('Login Failed');
+                  }}
+                />
+              </GoogleOAuthProvider>
+            )}
+          </button>
+
         {/*Apple Button */}
         <button className='apple-button'><i class="ri-apple-fill" style={{marginRight: '12px'}} ></i>Sign in with Apple</button>
-        
+        </div>
         <div className='div-under'>
             {/*FORM Starting*/}
             <form >
